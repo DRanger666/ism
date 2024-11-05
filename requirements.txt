@@ -1,0 +1,16 @@
+torch
+biopython
+einops
+matplotlib
+pandas
+scipy
+scikit-learn
+tqdm
+wandb
+ipykernel
+easydict
+ipdb
+tqdm
+submitit
+dm-tree
+fair-esm
