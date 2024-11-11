@@ -2,7 +2,7 @@
 
 By [Jeffrey Ouyang-Zhang](https://jozhang97.github.io/), [Chengyue Gong](https://sites.google.com/view/chengyue-gong), [Yue Zhao](https://zhaoyue-zephyrus.github.io), [Philipp Krähenbühl](http://www.philkr.net/), [Adam Klivans](https://www.cs.utexas.edu/users/klivans/), [Daniel J. Diaz](http://danny305.github.io)
 
-This repository is an official implementation of the paper [Distilling Structural Representations into Protein Sequence Models](TODO).
+This repository is an official implementation of the paper [Distilling Structural Representations into Protein Sequence Models](https://www.biorxiv.org/content/10.1101/2024.11.08.622579v1).
 
 **TL; DR.** ESM2 with enriched structural representations
 
@@ -21,6 +21,10 @@ Most users should use the first model (ISM-650M-UC30PDB). The second model (ISM-
 
 This quickstart assumes that the user is already working with ESM2 and is interested in replacing ESM with ISM. First, download ISM.
 ```bash
+# recommended
+huggingface-cli download jozhang97/ism_t33_650M_uc30pdb --local-dir /path/to/save/ism
+
+# alternative
 git clone https://huggingface.co/jozhang97/ism_t33_650M_uc30pdb
 ```
 
@@ -114,6 +118,7 @@ If you find ISM useful in your research, please consider citing:
   title={Distilling Structural Representations into Protein Sequence Models},
   author={Ouyang-Zhang, Jeffrey and Gong, Chengyue and Zhao, Yue and Kr{\"a}henb{\"u}hl, Philipp and Klivans, Adam and Diaz, Daniel J},
   journal={bioRxiv},
+  doi={10.1101/2024.11.08.622579},
   year={2024},
   publisher={Cold Spring Harbor Laboratory}
 }
