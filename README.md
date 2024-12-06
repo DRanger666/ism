@@ -16,6 +16,8 @@ Most users should use the first model (ISM-650M-UC30PDB). The second model (ISM-
 | ISM-650M-UC30PDB | 33 | 650M | Uniclust30 + PDB | https://huggingface.co/jozhang97/ism_t33_650M_uc30pdb |
 | ISM-650M-UC30 | 33 | 650M | Uniclust30 | https://huggingface.co/jozhang97/ism_t33_650M_uc30 |
 | ISM-3B-UC30 | 36 | 3B | Uniclust30 | https://huggingface.co/jozhang97/ism_t36_3B_uc30 |
+| ISM-C-300M | 30 | 300M | Uniclust30 + PDB | https://huggingface.co/jozhang97/ismc-300m-2024-12 |
+| ISM-C-600M | 36 | 600M | Uniclust30 + PDB | https://huggingface.co/jozhang97/ismc-600m-2024-12 |
 
 ## Quickstart
 
