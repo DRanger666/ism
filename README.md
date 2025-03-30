@@ -2,7 +2,7 @@
 
 By [Jeffrey Ouyang-Zhang](https://jozhang97.github.io/), [Chengyue Gong](https://sites.google.com/view/chengyue-gong), [Yue Zhao](https://zhaoyue-zephyrus.github.io), [Philipp Krähenbühl](http://www.philkr.net/), [Adam Klivans](https://www.cs.utexas.edu/users/klivans/), [Daniel J. Diaz](http://danny305.github.io)
 
-This repository is an official implementation of the paper [Distilling Structural Representations into Protein Sequence Models](https://www.biorxiv.org/content/10.1101/2024.11.08.622579v1).
+This repository is an official implementation of the paper [Distilling Structural Representations into Protein Sequence Models](https://www.biorxiv.org/content/10.1101/2024.11.08.622579v2).
 
 **TL; DR.** ESM2 with enriched structural representations
 
